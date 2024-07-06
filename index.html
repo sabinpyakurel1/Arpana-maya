@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love SweetHearth😘</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #ffecd2, #fcb69f);
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-family: 'Great Vibes', cursive;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            background-color: white;
+            max-width: 900px;
+            margin: 20px auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        section:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        h2 {
+            color: #ff6b6b;
+            font-family: 'Great Vibes', cursive;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 200px;
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .timeline {
+            text-align: left;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .timeline div {
+            margin: 20px 0;
+            background-color: #ffe6e6;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        .timeline h3 {
+            color: #ff6b6b;
+        }
+        footer {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 10px;
+            box-shadow: 0 -4px 8px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li::before {
+            content: "❤️";
+            padding-right: 8px;
+        }
+        audio {
+            margin-top: 20px;
+        }
+        #countdown {
+            font-size: 1.5em;
+            color: #ff6b6b;
+            margin-top: 20px;
+        }
+        .fade-in {
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .message {
+            background-color: #ffe6e6;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 10px 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .message:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+        @keyframes heartbeat {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+        .heartbeat {
+            animation: heartbeat 1s infinite;
+        }
+        #3d-heart {
+            width: 100%;
+            height: 500px;
+            background-color: #ffe6e6;
+        }
+        nav {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            z-index: 1000;
+        }
+        nav ul {
+            list-style: none;
+        }
+        nav ul li {
+            margin: 10px 0;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #ff6b6b;
+            font-size: 1.2em;
+            padding: 10px 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #ff6b6b;
+            color: white;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="heartbeat">For My Love SweetHearth😘</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#our-story">Our Story</a></li>
+            <li><a href="#gallery">Photo Gallery</a></li>
+            <li><a href="#love-letters">Love Letters</a></li>
+            <li><a href="#timeline">Memories Timeline</a></li>
+            <li><a href="#surprise-messages">Surprise Messages</a></li>
+            <li><a href="#future-plans">Our Future Plans</a></li>
+            <li><a href="#countdown">Countdown</a></li>
+            <li><a href="#3d-heart">3D Heart</a></li>
+        </ul>
+    </nav>
+
+    <section id="our-story" class="fade-in">
+        <h2>Our Story</h2>
+        <p>Once upon a time...</p>
+    </section>
+
+    <section id="gallery" class="fade-in">
+        <h2>Photo Gallery</h2>
+        <div class="gallery">
+            <img src="photo1.jpg" alt="Photo 1">
+            <img src="photo2.jpg" alt="Photo 2">
+            <img src="photo3.jpg" alt="Photo 3">
+        </div>
+    </section>
+
+    <section id="love-letters" class="fade-in">
+        <h2>Love Letters</h2>
+        <p>Dear Arpana Budhathoki,</p>
+        <div class="message">My heart overflows with love for you...</div>
+    </section>
+
+    <section id="timeline" class="fade-in">
+        <h2>Memories Timeline</h2>
+        <div class="timeline">
+            <div>
+                <h3>First Meeting</h3>
+                <p>We met on [Date] at [Place]...</p>
+            </div>
+            <div>
+                <h3>First Date</h3>
+                <p>Our first date was at [Place] on [Date]...</p>
+            </div>
+            <!-- Add more memories here -->
+        </div>
+    </section>
+    
+    <audio controls autoplay loop>
+        <source src="your-song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <section id="surprise-messages" class="fade-in">
+        <h2>Surprise Messages</h2>
+        <div class="message">Message 1: You are my sunshine!</div>
+        <div class="message">Message 2: Can't wait to see you tonight!</div>
+        <!-- Add more messages -->
+    </section>
+
+    <section id="future-plans" class="fade-in">
+        <h2>Our Future Plans</h2>
+        <ul>
+            <li>Travel to Paris</li>
+            <li>Buy a home together</li>
+            <li>Adopt a pet</li>
+            <!-- Add more plans -->
+        </ul>
+    </section>
+
+    <section id="countdown" class="fade-in">
+        <h2>Countdown to Our Anniversary</h2>
+        <div id="timer"></div>
+    </section>
+
+    <script>
+        const countdown = () => {
+            const countDate = new Date('December 31, 2024 00:00:00').getTime();
+            const now = new Date().getTime();
+            const gap = countDate - now;
+
+            const second = 1000;
+            const minute = second * 60;
+            const hour = minute * 60;
+            const day = hour * 24;
+
+            const textDay = Math.floor(gap / day);
+            const textHour = Math.floor((gap % day) / hour);
+            const textMinute = Math.floor((gap % hour) / minute);
+            const textSecond = Math.floor((gap % minute) / second);
+
+            document.getElementById('timer').innerHTML = `${textDay}d ${textHour}h ${textMinute}m ${textSecond}s`;
+        };
+
+        setInterval(countdown, 1000);
+        countdown();
+    </script>
+
+    <footer>
+        <p>With love, Sabin Pyakurel</p>
+    </footer>
+</body>
+</html>
